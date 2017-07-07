@@ -1,0 +1,29 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-8-4, 17:30:52
+    Author     : Ben_Yoga
+*/
+
+
+
+#journeyList{
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    /* vertical-align: middle; */
+
+    /* overflow: scroll; */
+    margin-top: -200px;
+}
+
+#journeySumit{
+    /* border: solid; */
+    /* float: right; */
+    /* width: 40%; */
+    /* height: 300px; */
+}
+

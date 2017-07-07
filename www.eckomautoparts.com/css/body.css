@@ -1,0 +1,129 @@
+.bodyContainer{
+    width: 1000px;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    z-index: 0;
+    text-align: center;
+}
+
+.bodyContent{ width:970px; height:auto; padding:15px; margin:0}
+.bodyContentTable
+{
+    width:970px;
+    /*height: 800px;*/ 
+    /*border-style: solid;*/
+    /*border-width: 1px;*/
+}
+
+.productlistpart
+{
+    width:700px;
+    display: inline;
+}
+.productlistpart p {
+    font-size: 14px;
+    font-style: normal;
+    color: #999;
+    width: 500px;
+}
+.productlistpart h1 {
+    font-size: 36px;
+    font-style: normal;
+    color: #000;
+    line-height: normal;
+    width: 500px;
+}
+#main_content {
+    height: auto;
+    /*width: 1000px;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+#title {
+    font-size: 45px;
+    padding: 15px;
+    height: auto;
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 5px;
+    color: grey;
+}
+#display_container {
+    height: auto;
+    width: 960px;
+    margin-top: 5px;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-left: auto;
+}
+.gallery {
+    margin: 10px;
+    float: left;
+    height: 295px;
+    width: 300px;
+    text-align: center;
+    transition: 0.1s ease-in;
+    -moz-transition: -moz-transform 0.1s ease-in;
+    -webkit-transition: -webkit-transform 0.1s ease-in;
+    -o-transition: -o-transform 0.1s ease-in;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+z-index:0;
+}
+.list {
+    width: auto;
+    height: 265px;
+    ;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 14px;
+    border: 1px solid #CCC;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.dp {
+    background-color: #000;
+    color: #FFF;
+    font-size: 14px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    border: 0.5px solid #CCC;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+}
+
+.gallery:hover{
+    -moz-transform:scale(1.05); 
+    -webkit-transform:scale(1.05);
+    -o-transform:scale(1.05);
+    transform: scale(1.05);
+    -webkit-box-shadow: 0px 0px 50px 2px rgba(0,0,80,0.3);
+    -moz-box-shadow: 0px 0px 50px 2px rgba(0,0,80,0.3);
+    box-shadow: 0px 0px 50px 2px rgba(0,0,80,0.3);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    //background-color: black;
+z-index:0;
+}
+
+
+
+.gallery .list:hover
+{
+    background: url(http://www.eckomautoparts.com/clients/www.eckomautoparts.com/image/footcolor.png);
+}
+.list a{
+    text-decoration:none;
+    color: black;
+}
+

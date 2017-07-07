@@ -1,0 +1,75 @@
+.accordionWrapper{
+	display:inline-block; 
+	background-color:#fff; 
+	overflow:hidden;}
+
+.accordionWrapper img{
+	vertical-align:top; 
+	border:0; 
+	margin:0; 
+	padding:0}
+
+.accordionWrapper div{
+	display:inline; 
+	float:left; 
+	margin:auto;}
+
+.set{
+	border-bottom: 1px solid #DBDBDB;
+	background-color: #FF0000;
+	height: 22px;}
+
+.accordionWrapper div.title{
+	cursor: pointer;
+	text-align: center;
+	margin: 1px;
+	padding-top: 2px;
+	font-size: 18px;
+	color: white;
+	width: 750px;}
+
+.accordionWrapper div.cont{
+	display:none;overflow: auto;
+	width: 700px;
+	height: auto;
+	margin-left: 25px;
+	margin-right: 25px;
+	font-size: 16px;
+	color: gray;
+	padding-bottom: 10px;
+	padding-top: 10px;}
+
+.accordionWrapper li {
+	background: url(http://www.infineon.com/export/system/modules/com.virtualidentity.infineon.frontend/resources/css/import/img/relaunch2011/sprite_buttons.png) no-repeat -930px -20px;
+	padding-left: 10px}
+
+.accordionWrapper ul{
+	list-style:none;}
+
+#productDetailTable {
+	min-height: 300px;
+	width: 1000px;
+	table-layout : fixed ;
+	margin-top:40px; }
+
+#productDetailTableInfoTd {width:150px;overflow:hidden;text-align:center;}
+#productDetailTableDetailTd {width:750px;overflow:hidden}
+
+
+
+#mailToUs{
+
+border: solid 1px;
+border-color: #ccc;
+text-decoration:none;
+color:black;
+
+}
+
+
+#mailToUs:hover
+{ 
+color:red;
+}
+
+a{TEXT-DECORATION:none}

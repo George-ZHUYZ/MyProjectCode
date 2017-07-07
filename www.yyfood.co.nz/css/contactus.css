@@ -1,0 +1,55 @@
+.contactpage
+{
+       height: 100%; 
+       margin-top: 0;
+}
+.mapPart{
+        height: 750px;
+}
+.contactPart{
+        height: 100%;
+}
+.contactMap
+{
+        width: 100%;
+        height: 99.3%;
+        /* height: 868px; */
+}
+.contactFirst{
+        display: table;
+        height: 50%;
+}
+.contactSecond{
+        height: 50%;
+}
+.contactContent
+{
+         /* height: 50%; */
+         /* margin-left: auto; */
+         /* margin-right: auto; */
+         /* display: table-cell; */
+         vertical-align: middle;
+}
+.contact-header{
+        
+}
+.contact-header h4{
+    font-weight: lighter;
+        
+    text-align: center;
+}
+.contact-body
+{
+    line-height: 30px;
+        
+    padding: 30px;
+}
+#contactus_form{
+        width: 100%;
+        padding: 30px;
+}
+.contactus-form-group
+{
+    padding: 5px;
+        
+}

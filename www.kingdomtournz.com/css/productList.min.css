@@ -1,0 +1,26 @@
+.productListPicture{float:left;width:200px;height:180px;margin:10px;border:solid 1px;padding:0}
+.productListDescription{width:100%;height:200px;float:right;border-width:1px;background:#afafaf}
+.productListContent{width:50%;height:180px;float:left;margin:10px;margin-right:0}
+.productListBooking{width:219px;height:171px;margin-top:25px;float:right;background-size:110%}
+.productList h5{color:#0093de;font-size:18px}
+.productList p{text-align:left;margin-right:20px;color:#726969;font-size:12px;padding-top:10px}
+.productList ul{list-style-type:none;margin-top:0;padding:0}
+.productList{background-color:#fff;width:96%;height:200px;padding:0 20px;padding-bottom:20px}
+#originalPrice{color:gray;font-size:1.2em;text-decoration:line-through}
+#actualPrice{color:black;font-size:1.5em;font:bold}
+#normalPrice{color:black;font-size:1.5em}
+#specialPic{color:red;width:100px;height:100px;float:right;background:transparent url("../image/productList/sales.png") 0 0 no-repeat;background-size:100%;position:absolute;margin-left:628px;margin-top:-10px}
+#cityList{width:73%;margin-left:240px;min-height:500px;margin-top:20px}
+#productListPhoneButton{background:url("../image/productList/phone.png") no-repeat;background-size:100%;width:55px;height:53px;position:absolute;margin-top:112px;margin-left:19px;transition-duration:.1s;border-radius:100px}
+#productListPhoneButton:hover{transform:scale(1.1);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,0.5);-moz-box-shadow:0 0 20px 0 rgba(0,0,0,0.5);box-shadow:0 0 20px 0 rgba(0,0,0,0.5)}
+#productListMailButton{background:url("../image/productList/mail.png") no-repeat;background-size:100%;width:55px;height:53px;position:absolute;margin-top:112px;margin-left:81px;transition-duration:.1s;border-radius:100px}
+#productListMailButton:hover{transform:scale(1.1);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,0.5);-moz-box-shadow:0 0 20px 0 rgba(0,0,0,0.5);box-shadow:0 0 20px 0 rgba(0,0,0,0.5)}
+#productListOrderButton{_background:url("../image/productList/OrderNow_small.png") no-repeat;background-size:100%;width:55px;height:55px;position:absolute;margin-top:112px;margin-left:80px}
+#productListShoppingCartButton{_background:url("../image/productList/shopingCart.png") no-repeat;background-size:100%;width:55px;height:53px;position:absolute;margin-top:110px;margin-left:140px;transition-duration:.1s;border-radius:100px}
+#productListShoppingCartButton:hover{transform:scale(1.1);-webkit-box-shadow:0 0 20px 0 rgba(0,0,0,0.5);-moz-box-shadow:0 0 20px 0 rgba(0,0,0,0.5);box-shadow:0 0 20px 0 rgba(0,0,0,0.5)}
+.productListButton:hover .productListButtonPhone{display:block}
+.productListButton:hover .productListButtonMail{display:block;margin-top:-101px}
+.productListButtonPhone{display:none;background:#8e8e8e;margin-left:2px;position:absolute;z-index:1000;width:180px;height:91px;color:white;margin-top:-104px;font-size:11px;text-align:left;padding:.5em;border-radius:5px}
+.productListButtonMail{display:none;background:#8e8e8e;margin-left:-58px;position:absolute;z-index:1000;width:180px;height:100px;color:white;margin-top:-120px;font-size:11px;text-align:left;padding-left:10px;border-radius:5px}
+#productListShoppingCartButtonInput{background-size:100%;width:55px;height:55px;position:absolute}
+#productListOrderButtonInput{background-size:100%;width:55px;height:55px;position:absolute}

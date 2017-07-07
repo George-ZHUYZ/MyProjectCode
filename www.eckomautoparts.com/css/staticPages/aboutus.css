@@ -1,0 +1,35 @@
+﻿#aboutus {
+	color: darkgray;
+	text-align:center;
+	margin-top: 40px;
+}
+.abtext {
+	font-size: 16px;
+	color: black;
+	margin: 5px;
+	padding: 5px;
+	height: auto;
+	width: auto;
+	font-family: Arial ;
+
+}
+.subhead {
+	margin: 10px;
+	padding: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: darkgray;
+	text-align:center;
+}
+#pic2 {
+	background: url(http://image0.tangren.co.nz/goto/www.eckomautoparts.com/pageimage/history.jpg) no-repeat;
+	height: 353px;
+	width: 552px;
+	margin: auto;
+}
+#partners {
+	height: 223px;
+	width: 568px;
+	background: url(http://image0.tangren.co.nz/goto/www.eckomautoparts.com/pageimage/partners.jpg) no-repeat;
+	margin: auto;
+}

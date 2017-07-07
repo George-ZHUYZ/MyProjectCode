@@ -1,0 +1,124 @@
+#verticalNav{    float: left;    height: auto;    margin: 20px;    overflow: auto;}
+#cityDes{    width: 71%;    height: auto;    margin-left: 260px;    margin-top: 40px;}
+#information{    width: 69%;    float: right;    border: solid;    height: 700px;}
+.single{    }
+#cityTitleImgBanner{background-color: black; opacity: 0.75;float: left;width: 100%;height: 193px;margin-top: -160px;}
+#cityTitleImgBannerTitle{color: white;font-size: 5em;padding-left: 40px;margin-top: 40px;}
+.tab {  padding-top: 0;  margin-bottom: 20px;  position: relative;  overflow: hidden;  background: #FFFFFF;  width: 100%;  margin: 0 auto;  line-height: 1.5;  font-weight: 300;  color: #5B5B5B;  -webkit-font-smoothing: antialiased;  margin-top: 20px;}
+.tabs {  display: table;  position: relative;  overflow: hidden;  /* margin: 0; */  width: 98%;  height: 10px;  margin-left: 20px;}
+.tabs li {  float: left;  line-height: 51px;  overflow: hidden;  width: 25%;  padding: 0px;  position: relative;}
+.tabs li a{    font-size: 20px;        padding: 0;    text-align: center;    color: rgb(0, 0, 0);    /* width: 100%; */    font-size: 18px;    height: 28px;    line-height: 135%;}
+.tabs a {  background-color: #eff0f2;  border-bottom: 1px solid #fff;  color: #888;  font-weight: 500;  display: block;  letter-spacing: 0;  outline: none;  padding: 0 20px;  text-decoration: none;  -webkit-transition: all 0.2s ease-in-out;  -moz-transition: all 0.2s ease-in-out;  transition: all 0.2s ease-in-out;  border-bottom: 2px solid #5997D3;}
+.tabs_item {  display: none;  padding: 20px 0;}
+.tabs_item h4 {  font-weight: bold;  color: #87d3b7;  font-size: 20px;}
+.tabs_item img {  width: 200px;  float: left;  margin-right: 0;}
+.tabs_item:first-child {  display: block;}
+.current a {  color: #fff;  background: #5997D3;}
+.journey_showPic{    padding: 0;    padding-bottom: 0px;    width: 960px;    height: 594px;    overflow: hidden;    margin: 20px;}/*To change this license header, choose License Headers in Project Properties.To change this template file, choose Tools | Templatesand open the template in the editor.*//*     Created on : 2014-8-10, 21:38:36    Author     : Ben_Yoga*/
+#productList{}
+.productListPicture{float: left;width: 200px;  height: 180px;    margin: 10px;border: solid 1px;  padding: 0px;overflow: hidden;/* background: ghostwhite; */}
+.productListPicture img{
+    -webkit-transition:0.5s ease all;
+    -moz-transition:0.5s ease all;
+    -o-transition:0.5s ease all;
+}
+.productListPicture:hover img
+{
+     -moz-transform: scale(1.05) rotate(1deg);
+    -o-transition: scale(1.05) rotate(1deg);
+    -webkit-transform: scale(1.05) rotate(1deg);
+}
+.productListDescription{width: 100%;height: 200px;float: right;border-width: 1px;/* border-color: rgb(0, 0, 0); */background: rgb(175, 175, 175);}
+.productListDescription:hover
+{
+    -webkit-box-shadow: 0px 0px 26px 6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 26px 6px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.3);
+}
+.productListContent{width: 50%;height: 180px;float: left;margin: 10px;margin-right: 0;/* background: rgb(172, 172, 172); */}
+.productListBooking{width: 197px;height: 181px;margin-top: -181px;/* margin-right: 12px; */float: right;/* padding: 0px; *//* margin-left: 0px; *//* background: url(../image/productList/buttonBackground.png) no-repeat; */background-size: 110%;}
+productListBooking ul{    }productListBooking ul li{    }productListBooking ul li:first-child{    }productListBooking ul li:last-child{    }
+.productList h5 {/* text-align: center; */color: #0093de; font-size: 17px;}
+.productList p {text-align: left;margin-right: 0px;color: #726969;font-size:12px;padding: 7px 0;}
+.brief
+{
+    
+}
+.productList ul {list-style-type: none;margin-top: 0;padding:0px;}
+.productList{    background-color: #FFFFFF;    width: 96%;    height: 200px;    padding: 0px 20px;    padding-bottom: 20px;}
+#originalPrice{color: gray;/* margin-left: auto; */font-size: 1.2em;text-decoration: line-through;padding: 15px;}
+#actualPrice{color: black;font-size: 1.5em;font: bold;}
+#normalPrice{color: rgb(0, 0, 0);font-size: 1.5em;padding: 0px;/* margin-top: -0.6em; */}
+#specialPic{color: red; width: 100px;height:100px;float: right;background: transparent url("../image/productList/sales.png") 0 0 no-repeat;background-size: 100%;position: absolute;margin-left: 628px;margin-top: -10px;}
+#cityList{    width: 73%;    margin-left: 239px;    /* min-height: 50em; */    height: auto;    margin-top: 20px;    overflow: auto;}
+#cityTab{}#cityTabContent{
+}#productListPhoneButton{    background:url("../image/productList/phone.png") no-repeat ;    background-size: 100%;    width: 55px;     height: 53px;     position: absolute;margin-top: 112px;    margin-left: -5px; transition-duration: 0.1s;
+    border-radius: 100px;}
+#productListPhoneButton:hover
+{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+
+}
+#productListMailButton{background:url("../image/productList/mail.png") no-repeat ;    background-size: 100%;    width: 55px;     height: 53px;position: absolute;margin-top: 112px;margin-left: 56px;transition-duration: 0.1s;
+                       border-radius: 100px;}
+#productListMailButton:hover
+{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+#productListShoppingCartButton{_background:url("../image/productList/shopingCart.png") no-repeat ;    background-size: 100%;    width: 55px;     height: 53px;position: absolute;margin-top: 112px;margin-left: 116px;transition-duration: 0.1s;
+                               border-radius: 100px;}
+#productListShoppingCartButton:hover{
+    transform: scale(1.1);
+     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+.productListButton:hover .productListButtonPhone {    display: block;}
+.productListButton:hover .productListButtonMail {    display: block;}
+.productListButtonPhone {    display: none;    background: #8E8E8E;    /* margin-left: 28px; */    /* padding: 10px; */    position: absolute;    z-index: 1000;    width: 180px;    height: 95px;    color: white;    margin-top: -104px;    font-size: 12px;    text-align: left;    margin-left: 3px;    border-radius: 5px;    padding: 0.5em;}
+.productListButtonMail {    display: none;    background: #8E8E8E;    margin-left: -59px;    /* padding: 10px; */    position: absolute;    z-index: 1000;    width: 180px;    height: 89px;    color: white;    margin-top: -98px;    font-size: 12px;    text-align: left;    border-radius: 5px;    padding: 0.5em;}
+.productListButtonMail a
+{
+    color:white;
+}
+
+#productListShoppingCartButtonInput{background: url("../image/productList/shopingCart.png") no-repeat;    background-size: 100%;    width: 55px;     height: 55px;position: absolute;transition-duration: 0.1s;
+                               border-radius: 100px}      
+#productListShoppingCartButtonInput:hover
+{
+     transform: scale(1.1);
+     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    
+     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+#cityDes p{
+    line-height: 20px;
+    text-indent: 2em;
+    margin-bottom: 10px;
+}
+.viewWebsit_buttom
+{
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-top: 140px;
+    width: 70PX;
+}
+#city{
+    overflow: auto;
+}
+
+#productListShoppingCartHotelButton{_background:url("../image/productList/shopingCart.png") no-repeat ;    background-size: 100%;    width: 55px;     height: 55px;/* position: absolute; */margin-top: 92px;margin-left: 116px;}
+#productListShoppingCartButtonHotelInput{_background:url("../image/productList/shopingCart.png") no-repeat ;    background-size: 100%;    width: 55px;     height: 55px;position: absolute;}      
+
+#carHotelListShoppingCartButton{
+    background: url("../image/productList/shopingCart.png") no-repeat ;    background-size: 100%;    width: 55px;     height: 55px;
+    margin-top: 70px;margin-left: 116px;
+}

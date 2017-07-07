@@ -1,0 +1,52 @@
+.more {
+	position: relative;
+}
+.more:before, .more:after {
+	position: absolute;
+	transition: All 0.5s ease;
+	-webkit-transition: All 0.5s ease;
+	-moz-transition: All 0.5s ease;
+	-o-transition: All 0.5s ease;
+	margin-left: -100px;
+	left: 50%;
+	bottom: 300%;
+	display: block;
+	color: #000;
+	opacity: 0;
+}
+.more:before {
+	content: attr(title);
+	border: solid 1px #0088cc;
+	background: #FFF;
+	width: 200px;
+	text-align: center;
+	z-index: 2;
+	font-size: 13px;
+	line-height: 18px;
+	padding: 5px;
+}
+.more:after {
+	content: '\25c6';
+	margin-left: 0;
+	margin-top: 10px;
+	width: 15px;
+	height: 15px;
+	z-index: 1;
+	line-height: 28px;
+	color: #0088cc;
+	font-size: 20px;
+}
+.more:hover:before, .tooltip:hover:after {
+	bottom: 150%;
+	opacity: 1;
+}
+
+#list{background-color: #f3f3f3;width: 602px;height: 202px;/* margin-top: 300px; */}
+
+#picture{width: 30%;height: 202px;float: left;}
+
+#description{width: 65%;height: 200px;float: right;border-width: 1px;border-color: black;border-style: solid;}
+#content{width: 50%;height: 200px;float: left;}
+#booking{width: 30%;height: 200px;float: right;}
+
+#toursList{margin-top: 250px;}

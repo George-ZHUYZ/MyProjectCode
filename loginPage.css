@@ -1,0 +1,11 @@
+/*
+*This file contains the css formate of Login Page!!!
+*/
+#loginContainer{
+    width: 20%;
+    height: 40%;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+

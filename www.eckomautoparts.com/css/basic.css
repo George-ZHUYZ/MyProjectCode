@@ -1,0 +1,14 @@
+html {
+    background-color: transparent;
+    height: 100%;
+    font-family: Helvetica, Georgia, Arial,  sans-serif; 
+}
+body {
+    margin: 0;
+    z-index: 0;
+    background-color: transparent;
+    min-width:1000px
+}
+
+
+

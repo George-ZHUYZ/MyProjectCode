@@ -1,0 +1,232 @@
+html
+{
+        width: 100%;
+
+        height: 100%;
+}
+body
+{
+        font-family: 'Open Sans', sans-serif;
+        height: 100%;
+        width: 100%;
+}
+#bodyBackground
+{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        background-color: rgba(255, 255, 255, 0.76);
+        /* background-image: url(http://previews.123rf.com/images/dearza/dearza1106/dearza110600467/9816644-real-cool-ice-cube-frozen-background-texture.jpg); */
+        /* background-image: url(http://wallpaperscraft.com/image/paint_cracks_soft_colors_blue_72339_3600x2354.jpg); */
+        /* background-image: url(http://bgfons.com/upload/ice_texture2990.jpg); */
+         
+        /* background-image: url(../images/homepage/bb.jpg); */ 
+        /* background-image: url(http://images5.alphacoders.com/328/328030.jpg); */
+        background-image: url(http://images.alphacoders.com/111/111201.jpg);
+        /* background-image: url(http://www.frontierpapercompany.com/backgrounds/whitewashed%20wood%20background.jpg); */
+        background-repeat: no-repeat;
+        background-size: cover; 
+
+        background-position: center;
+        z-index: -1000;
+        filter: grayscale(20%); /* IE 9 */       /* Chrome, Safari, Opera */      
+        /* -webkit-filter: grayscale(25%); */
+        /* -webkit-filter: blur(0px); */    filter: blur(5px);
+        opacity: 0.8;
+}
+#bodyBackgroundimg
+{
+        width: 100%;
+
+        height: 100%;
+        /* background-image: url(http://preview.themique.com/vertikal/wp-content/themes/vertikal/images/back-pattern.png); */
+        background-color: rgba(22, 255, 34, 0.07);
+}
+#wrapper {
+        padding-left: 0;
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+        /* height: 100%; */
+        width: 875px;
+        max-width: 1344px;
+        margin-left: auto;
+        margin-right: auto;
+}
+.oneOfThree
+{
+        height: 45%;
+        min-height: 200px;
+
+        margin-bottom: initial;
+}
+.hasFrame
+{
+        border: solid 1px black; 
+
+}
+.row-fluid {width: 100%;display:table-cell; vertical-align: middle;}
+.vcenter {
+        /*border: solid 1px;*/
+        display:table !important;
+}
+.centering {
+        display : table-cell;
+        vertical-align : middle;
+}
+.backgroundColor
+{
+        background-color: #1280cf;
+}
+.whiteColor{
+        color: white;
+}
+.modal-body{
+        padding: 0;
+}
+.closebtn{
+        margin-right: 10px;
+        font-size: xx-large;
+}
+@media screen and (max-width: 990px){
+        #wrapper {
+                width: 85%;
+                min-width: 255px;
+        }
+        .sidebar
+        {
+                width: 25%;
+        }
+        .homePage
+        {
+                min-width: 255px;
+                width: 60%;
+                margin-left: 25%;
+        }
+        .topHead-content{
+                line-height: 25px !important;
+        }
+        .topHead-shopping{
+                /*                width: 100% !important;;
+                                max-width: 100% !important;*/
+                background-color: rgba(25, 150, 204, 0);
+        }
+        .mapPart{
+                height: 300px !important;
+        }
+        #orderTable thead tr th:first-child
+        {
+
+                width: 135px;
+        }
+        #contact_form
+        {
+                width: 100% !important;
+        }
+
+
+}
+@media screen and (min-width: 991px) and (max-width: 1350px){
+        #wrapper {
+                width: 875px;
+        }
+        .sidebar
+        {
+                width: 220px;
+        }
+        .homePage
+        {
+                width: 655px;
+                margin-left: 220px;
+        }
+        .topHead{
+                height: 50px;
+        }
+        .image-lg{
+                width: 100%;
+                /*max-width: 100px;*/
+        }
+        .text-lg
+        {
+                max-width: 100px;
+        }
+        .mapPart{
+                height: 750px !important;
+        }
+        #orderTable thead tr th:first-child
+        {
+
+                width: 135px;
+        }
+}
+
+@media screen and (min-width: 1350px){
+        #wrapper {
+                width: 1250px;
+        }
+        .sidebar
+        {
+                width: 250px;
+        }
+        .homePage
+        {
+                width: 1000px;
+                margin-left: 250px;
+        }
+        .mapPart{
+                height: 750px;
+        }
+        #orderTable thead tr th:first-child
+        {
+
+                width: 300px;
+        }
+
+
+}
+.topHead
+{
+        height: 55px;
+        width: 100%;
+        /* border: solid 1px; */
+        background-color: rgba(37, 161, 213, 0.56);
+        color: white;
+}
+.topHead-content{
+        /* border: solid 1px; */
+        height: 100%;
+        line-height: 50px;
+        text-align: center;
+}
+.topHead-shopping
+{
+        height: 100%;
+        /* border: solid 1px; */
+        padding: 0;
+        /* max-width: 350px; */
+        /* width: 350px; */
+}
+.topPhone
+{
+        padding: 0 0px;
+
+}
+.topEmail
+{
+        padding: 0px 0px;
+
+}
+.topEmail a{
+        color: white;
+}
+.phoneText{
+        margin-left: 5px;
+
+        margin-right: 5px;
+}
+.emailText
+{
+        margin-left: 5px;  margin-right: 5px;
+
+}

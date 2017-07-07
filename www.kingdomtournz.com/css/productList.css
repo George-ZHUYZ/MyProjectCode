@@ -1,0 +1,230 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-8-10, 21:38:36
+    Author     : Ben_Yoga
+*/
+
+#productList{}
+
+.productListPicture{float: left;width: 200px;  height: 180px;    margin: 10px;border: solid 1px;  padding: 0px;
+                    overflow: hidden;
+    /* background: ghostwhite; */}
+.productListPicture img{
+    -webkit-transition:0.5s ease all;
+    -moz-transition:0.5s ease all;
+    -o-transition:0.5s ease all;
+}
+.productListPicture:hover img
+{
+     -moz-transform: scale(1.05) rotate(1deg);
+    -o-transition: scale(1.05) rotate(1deg);
+    -webkit-transform: scale(1.05) rotate(1deg);
+}
+
+.productListDescription{width: 100%;height: 200px;float: right;border-width: 1px;/* border-color: rgb(0, 0, 0); */background: rgb(175, 175, 175);
+
+}
+.productListDescription:hover
+{
+    -webkit-box-shadow: 0px 0px 26px 6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 26px 6px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 15px 2px rgba(0,0,0,0.3);
+}
+
+.productListContent{width: 50%;height: 180px;float: left;margin: 10px;margin-right: 0;/* background: rgb(214, 214, 214); */}
+
+
+.productListBooking{width: 219px;height: 171px;margin-top: 25px;/* margin-right: 12px; */float: right;/* padding: 0px; *//* margin-left: 0px; *//* background: url(../image/productList/buttonBackground.png) no-repeat; */background-size: 110%;}
+productListBooking ul{
+
+}
+productListBooking ul li{
+
+}
+productListBooking ul li:first-child{
+
+}
+
+productListBooking ul li:last-child{
+
+}
+
+.productList h5 {/* text-align: center; */color:#0093de; font-size: 18px;}
+
+.productList p {text-align: left;margin-right: 20px;color: #726969;font-size:12px;padding-top:10px;}
+
+.productList ul {list-style-type: none;margin-top: 0;padding:0px;}
+.productList
+{
+    background-color: #FFFFFF;
+    width: 96%;
+    height: 200px;
+    padding: 0px 20px;
+    padding-bottom: 20px;
+}
+
+#originalPrice{color: gray;/* margin-left: auto; */font-size: 1.2em;text-decoration: line-through;}
+
+#actualPrice{color: black;font-size: 1.5em;font: bold;}
+
+#normalPrice{color: black;font-size: 1.5em;}
+
+#specialPic{color: red; width: 100px;height:100px;float: right;background: transparent url("../image/productList/sales.png") 0 0 no-repeat;background-size: 100%;position: absolute;margin-left: 628px;margin-top: -10px;}
+
+#cityList{
+    width: 73%;
+    margin-left: 240px;
+    min-height: 500px;
+    margin-top: 20px;
+}
+#cityTab{}
+#cityTabContent{}
+
+
+
+#productListPhoneButton{
+    background:url("../image/productList/phone.png") no-repeat ;
+    background-size: 100%;
+    width: 55px; 
+    height: 53px; 
+    position: absolute;margin-top: 112px;
+    margin-left: 19px;
+    transition-duration: 0.1s;
+    border-radius: 100px;
+}
+#productListPhoneButton:hover
+{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+#productListMailButton{background:url("../image/productList/mail.png") no-repeat ;
+                       background-size: 100%;
+                       width: 55px; 
+                       height: 53px;
+                       position: absolute;
+                       margin-top: 112px;
+                       margin-left: 81px;
+                       transition-duration: 0.1s;
+                       border-radius: 100px;}
+#productListMailButton:hover
+{
+    transform: scale(1.1);
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+#productListOrderButton{_background:url("../image/productList/OrderNow_small.png") no-repeat ;
+                        background-size: 100%;
+                        width: 55px; 
+                        height: 55px;position: absolute;margin-top: 112px;margin-left: 80px;}
+#productListShoppingCartButton{_background:url("../image/productList/shopingCart.png") no-repeat ;
+                               background-size: 100%;
+                               width: 55px; 
+                               height: 53px;
+                               position: absolute;
+                               margin-top: 110px;
+                               margin-left: 140px;
+                               transition-duration: 0.1s;
+                               border-radius: 100px;
+}
+#productListShoppingCartButton:hover{
+    transform: scale(1.1);
+     -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.productListButton:hover .productListButtonPhone {
+    display: block;
+}
+
+.productListButton:hover .productListButtonMail {
+    display: block;
+    margin-top: -104px;
+}
+.productListButtonMail a
+{
+    color: white; 
+}
+
+.productListButtonPhone {
+    display: none;
+    background: #8E8E8E ;
+    
+
+    margin-left: 2px;
+    /* padding: 10px; */
+    position: absolute;
+    z-index: 1000;
+
+    width: 172px;
+
+    height: 105px;
+    color: white;
+
+    margin-top: -104px;
+    font-size: 11px;
+    text-align: left;
+
+
+    line-height: 2;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+.productListButtonMail {
+    display: none;
+    background: #8E8E8E;
+      
+
+    margin-left: -58px;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 10px;
+    z-index: 1000;
+
+    width: 180px;
+
+    background-position: 64px 88px;
+    height: 86px;
+    padding-bottom: 10px;
+    color: white;
+
+    margin-top: -120px;
+    font-size: 11px;
+    text-align: left;
+
+    border-radius: 5px;
+}
+
+
+#productListShoppingCartButtonInput{
+    /*_background:url("../image/productList/shopingCart.png") no-repeat ;*/
+
+    background-size: 100%;
+
+    width: 55px; 
+
+    height: 55px;position: absolute;}
+
+
+#productListOrderButtonInput{
+    /*_background:url("../image/productList/OrderNow_small.png") no-repeat ;*/
+
+    background-size: 100%;
+
+    width: 55px; 
+
+    height: 55px;position: absolute;}
+
+
+

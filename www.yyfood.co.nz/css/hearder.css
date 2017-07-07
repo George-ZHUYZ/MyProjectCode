@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/09/2014, 4:26:57 PM
+    Author     : DavidLi
+*/
+
+.yyheader{
+    width: 50%;
+    
+    max-width: 120px;
+    text-align: center;
+    height: 100%;
+    display: table;
+    margin: auto;
+}
+.yyHeaderRow{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.header1{
+    font-size: 28px;
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 110px;
+    padding-top: 0;
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+}
+.header1 a{
+    color: #1280cf;
+    
+    text-decoration: none;
+}
+.header2{
+    font-size: 19px;
+    
+    width: 100%;
+    color: #666262;
+    /* text-shadow: 0 1px 1px rgba(0, 0, 0, 0.59); */
+}

@@ -1,0 +1,163 @@
+
+#wrapper {
+	height: auto;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#top {
+	height: 490px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+	padding-top: 25px;
+}
+#wrapper {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	/* margin-top: 174px; */
+	padding-top: 60px;
+	/* display: inline; */
+	background-color: white;
+}
+
+#bottom {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #d9d8d8;
+	margin-top: 5px;
+}
+#about_txt {
+	height: auto;
+	width: 500px;
+	padding: 0 20px 0 20px;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #d9d8d8;
+	text-align: justify;
+	position: absolute;
+	line-height:20px
+;
+}
+.about_head {
+	height: auto;
+	width: auto;
+	
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+.about_head h3{
+	font-weight: bold;
+}
+.about_txt_txt {
+	height: auto;
+	width: auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+	
+	color: #333;
+	font-size: 13px;
+}
+#about_pic {
+	width: 35%;
+	height: 390px;
+	margin-left: auto;
+	margin-right: 7%;
+	background-image: url(../../image/aboutUs/Grey-and-Wood-Floor-Office-25-Beautiful-Homes-Housetohome.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+#about_members {
+	height: 663px;
+	width: 1000px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.four_members {
+	float: left;
+	height: 329px;
+	width: 228px;
+	margin-right: 16px;
+}
+.four_members_last {
+	float: left;
+	height: 329px;
+	width: 228px;
+}
+.four_members {
+	height: 329px;
+	width: 228px;
+}
+.four_members { overflow:hidden;}
+.four_members:hover{}
+.four_members > img
+{
+	height: 228px;
+	width: 456px;
+	transition:All 0.3s ease;-webkit-transition:All 0.3s ease;-moz-transition:All 0.3s ease;-o-transition:All 0.3s ease;transform: translate(0); -webkit-transform:  translate(0);-moz-transform: translate(0);-o-transform:  translate(0);-ms-transform: translate(0);
+	max-width: 456px;
+}
+.four_members >	img:hover{
+		transform: translate(-228px);-webkit-transform:  translate(-228px);-moz-transform: translate(-228px);-o-transform:  translate(-228px);-ms-transform: translate(-228px);
+}
+.four_members_last { overflow:hidden;}
+.four_members_last:hover{}
+.four_members_last > img
+{
+	height: 228px;
+	width: 456px;
+	transition:All 0.3s ease;-webkit-transition:All 0.3s ease;-moz-transition:All 0.3s ease;-o-transition:All 0.3s ease;transform: translate(0); -webkit-transform:  translate(0);-moz-transform: translate(0);-o-transform:  translate(0);-ms-transform: translate(0);
+	max-width: 456px;
+}
+.four_members_last >	img:hover{
+		transform: translate(-228px);-webkit-transform:  translate(-228px);-moz-transform:   translate(-228px);-o-transform:  translate(-228px);-ms-transform: translate(-228px);	
+	}
+.name {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 100%;
+	
+	text-decoration: none;
+	line-height: 25px;
+	vertical-align: baseline;
+	margin-bottom: 0px;
+	color: #333;
+}
+.title {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 1.4em;
+	
+	text-decoration: none;
+	vertical-align: baseline;
+	margin-bottom: 0px;
+	color: #000;
+	text-align: left;
+	line-height: 20px;
+}
+.contact {
+	margin: 10;
+	padding: 0;
+	border: 0;
+	outline: none;
+	font-size: 100%;
+	
+	text-decoration: none;
+	vertical-align: baseline;
+	margin-bottom: 0px;
+	color: #333;
+	
+}

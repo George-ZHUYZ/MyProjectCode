@@ -1,0 +1,79 @@
+﻿
+.footContainer
+{
+    width: 100%;
+    /* background-color: #F4C71C; */
+
+    background: url(http://image0.tangren.co.nz/goto/www.eckomautoparts.com/pageimage/FOOTER.png) no-repeat #F4C71C;
+
+    background-size: 100%;
+    padding-top:17%;
+}
+
+
+#cuslogo {
+	float: right;
+	margin-right: auto;
+	margin-left: 50px;
+	height: 200px;
+	width: auto;
+	text-align: center;
+	/*max-width:200px;*/
+	max-height:200px;
+}
+#coninfo {
+	height: 200px;
+	width: 300px;
+	float: left;
+	text-align: center;
+}
+#logodsply1 {
+	float: left;
+	background: url(http://image0.tangren.co.nz/goto/www.eckomautoparts.com/pageimage/logoes.png) no-repeat;
+	width: 220px;
+	height: 121px;
+	background-size: 100% 100%;
+	border-top-color: #CCC;
+	border-right-color: #CCC;
+	border-bottom-color: #CCC;
+	border-left-color: #CCC;
+	margin-top: -10px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+#footContent {
+	height: 270px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#division {
+	clear: left;
+	margin-right: auto;
+	margin-left: auto;
+	width: 95%;
+	margin-top: 0px;
+}
+#bottom {
+	height: auto;
+	width: 500px;
+	float: left;
+	font-size: 12px;
+	margin-right: 300px;
+	margin-left: 300px;
+	text-align: center;
+	margin-top: 10px;
+}
+#txtcontent {
+	margin-top: 20px;
+}
+
+/* responsive rules */
+
+#ftContentWrapper {
+height: auto;
+width: 80%;
+margin-left: auto;
+margin-right: auto;
+}

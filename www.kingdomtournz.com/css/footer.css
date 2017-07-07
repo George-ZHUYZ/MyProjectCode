@@ -1,0 +1,318 @@
+@charset "utf-8";
+/* CSS Document */
+
+#footer {
+	height: auto;
+	width: 100%;
+	min-width: 1000px;
+	max-width: 1920px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: dashed;*/
+}
+#footer_top {
+	height: 250px;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+
+	/*border: dotted;*/
+	background-color: #333;
+	border-top-color: #FFF;
+
+	/* overflow: auto; */
+}
+/*according to the border, footer_top_content's scope is useless, */
+#footer_top_content {
+	height: auto;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: double;*/
+}
+
+
+#footer_bottom {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #222;
+}
+.footer_top_parts {
+    float: left;  /* height: 170px; */  
+    width: 178px;  
+    margin-top: 20px;  
+    margin-left: 88px;
+    /*border: double;*/
+}
+.footer_top_partfirst {
+	float: left;
+	/*height: 170px;*/
+	width: 240px;
+	margin: 10px;
+	margin-top: 20px;
+}
+.footer_top_partlast {
+    float: left;  /* height: 170px; */  
+    width: 100px;  
+    /* margin: 10px; */
+    margin-left: 96px;
+    margin-top: 20px;  
+}
+.footer_top_title {
+	height: 30px;
+	width: 96px;
+	font-size: 13px;
+	color: #FFF;
+	font-weight: bold;
+	/*font-family: "??????";*/
+}
+.footer_top_content {
+	/*height: 140px;*/
+	width: 200px;
+	color: #BBB;
+	/*border: solid;*/
+}
+.footer_top_content ul {
+	list-style: none;
+	margin-left: 0;
+	color: #BBB;
+}
+.footer_top_content ul li {
+	margin-top: 7px;
+	text-align: left;
+	font-size: 12px;
+	color: #BBB;
+}
+.footer_top_content ul li a {
+	text-decoration: none;
+	color: #BBB;
+	/*border: dotted;*/
+}
+#find_us {
+	height: 86px;
+	width: 188px;
+	/*
+	color: #BBB;
+	font-size: 12px;*/
+	margin-left: 23px;
+	margin-top: 7px;
+}
+#find_us_wechat {
+	list-style-type: none;
+	list-style-image: url(../image/homePage/footer/wechat.png);
+	margin-top: -8px;
+	margin-bottom: 8px;
+	margin-left: 10px;
+}
+.wechat_txt {
+	display: inline;
+	vertical-align: 10px;
+	color: #BBB;
+	padding-left: 10px;
+	font-size: 12px;
+}
+#find_us_qq {
+	list-style-type: none;
+	list-style-image: url(../image/homePage/footer/qq.png);
+	margin-bottom: 8px;
+	text-align: left;
+	margin-left: 10px;
+}
+.qq_txt {
+	display: inline;
+	vertical-align: 10px;
+	font-size: 12px;
+
+	color: #BBB;
+	padding-left: 10px;
+}
+#find_us_weibo {
+	list-style-type:none;
+	list-style-image: url(../image/homePage/footer/weibo.png);
+	margin-left: 10px;
+}
+.weibo_txt {
+	display: inline;
+	vertical-align: 10px;
+	font-size: 12px;
+	color: #BBB;
+	padding-left: 10px;
+}
+#footer_bottom_container {
+	margin-right: auto;
+	margin-left: auto;
+	/*height: 120px;*/
+	font-family: Tahoma, Geneva, sans-serif;
+	color: #999;
+	font-size: x-small;
+	font-weight: bold;
+	width: 1000px;
+	padding-top: 15px;
+	/*border: solid;*/
+}
+
+#com-logo {
+	height: 70px;
+	width: 120px;
+	float: left;
+	background-image: url(../image/homePage/footer/Kingdomtou_new_black_and_white.png);
+	background-size: 101px 50px;
+	margin-top: 0;
+	margin-left: 0;
+	background-repeat: no-repeat;
+	-ms-transition: background-image 1s linear 0.5s;
+	-o-transition: background-image 1s linear 0.5s;
+	transition: background-image 1s linear 0.5s;
+}
+#copyright {
+	height: auto;
+	width: 1000px;
+	float: left;
+	margin-top: 3px;
+	text-align: center;
+	font-size: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	/*border: dashed;*/
+}
+#quali-logo-1 {
+	height: 70px;
+	width: 16%;
+	float: left;
+	background-image: url(../image/homePage/footer/1.png);
+	background-size: 118px 50px;
+	margin-left: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 0;
+	margin-right: 35px;
+	/*border: dotted;*/
+}
+#quali-logo-2 {
+	height: 70px;
+	width: 17%;
+	float: left;
+	background-image: url(../image/homePage/footer/2.png);
+	background-size: 148px 60px;
+	margin-left: 0;
+	background-position: center;
+	background-repeat: no-repeat;
+	display: inline;
+	margin-top: 0;
+	margin-right: 36px;
+	/*border: double;*/
+}
+#quali-logo-3 {
+	height: 70px;
+	width: 17%;
+	margin-right: 35px;
+	float: left;
+	background-image: url(../image/homePage/footer/3.png);
+	background-size: 148px 60px;
+	margin-left: -1px;
+	background-repeat: no-repeat;
+	margin-top: 0;
+	background-position: center;
+	/*	background-image: url(Enviro%20assured.png);*/
+	display: inline;
+	/*border: solid;*/
+}
+#quali-logo-4 {
+	height: 70px;
+	width: 18%;
+	float: right;
+
+	background-image: url(../image/homePage/footer/4.png);
+	background-size: 170px 70px;
+	margin-left: 0;
+	background-repeat: no-repeat;
+	margin-top: 0;
+	background-position: center;
+	/*background-image: url(quality%20assured.png);*/
+	display: inline;
+	margin-right: 35px;
+	/*border: dashed;*/
+}
+
+#quali-logo-5 {
+	height: 70px;
+	width: 14%;
+	float: right;
+
+	background-image: url(../image/homePage/footer/5.png);
+	background-size: 148px 60px;
+	margin-left: 0;
+	background-repeat: no-repeat;
+	margin-top: 0;
+	background-position: center;
+	/*background-image: url(quality%20assured.png);*/
+	display: inline;
+	margin-right: 23px;
+	/*border: dotted;*/
+}
+
+
+.qq_contact
+{
+    position: fixed;
+    top: 70%;
+    height: 176px;
+    width: 155px;
+    left: 97%;
+    text-align: right;
+    padding: 0 20px 0 0px;
+    background-color: white;
+    -webkit-transition: All  0.1s ease;
+    -moz-transition: All 1s ease;
+    -o-transition: All 1s ease;
+    transform: translate(0);
+    -webkit-transform: translate(0);
+    -moz-transform: translate(0);
+    -o-transform: translate(0);
+    -ms-transform: translate(0);
+    border-radius: 10px;
+
+}
+.qq_contact:hover
+{
+    transform: translate(-128px);
+    -webkit-transform: translate(-128px);
+    -moz-transform: translate(-128px);
+    -o-transform: translate(-128px);
+    -ms-transform: translate(-128px);
+}
+.qq_contact ul li a img{
+    width: 100px;
+    
+    margin: 10px;
+}   
+
+#tip{position: absolute;
+text-align: center;
+font-size: 2.5em;
+width: 47px;
+line-height: 164%;
+font-family: inherit;}
+
+#footer_QRcode
+{
+    background: url(../image/qr.png) no-repeat;
+    background-size: 100%;
+    width: 70px;
+    height: 70px;
+    /* float: left; */
+    margin-left: -27px;
+}
+#footer_QRcode_sina
+{
+    background: url(../image/sina.png) no-repeat;
+    background-size: 100%;
+    width: 70px;
+    height: 70px;
+    /* float: left; */
+    margin-top: 10px;
+    margin-left: -28px;
+}

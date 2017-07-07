@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Loan Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            #loan_calculator{
+                margin-top: auto;
+                margin-bottom: auto;
+                margin-left: auto;
+                margin-right: auto;
+                width: 400px;
+                height: 600px;
+                border: 2px solid black;
+            }
+           #loan_calculator .row{
+                padding-top: 15px;
+            }
+           #loan_calculator .elenment{
+                padding-top: 15px;
+                padding-left: 5px;
+            }
+        </style>
+        <script type="text/javascript">
+            function calculator(){
+                var totalAmount = document.forms["loan_calculator"]["totalAmount"].value;
+                var interestRate = document.forms["loan_calculator"]["interestRate"].value/100;
+                var  period= document.forms["loan_calculator"]["period"].value;
+                var frequence = document.forms["loan_calculator"]["frequence"].value;
+                var method = document.forms["loan_calculator"]["method"].value;
+                var error=checkEmpty(totalAmount,interestRate,period);
+                if(error == ""){
+                    if(method == "insterestAndPrincipal"){
+                        if(frequence == "monthly"){
+                            document.forms["loan_calculator"]["paymentAmout"].value = Math.round((totalAmount*(interestRate/12)*Math.pow(1+interestRate/12,period*12))/(Math.pow(1+interestRate/12,period*12)-1));
+                        }else if(frequence == "biweekly"){
+                            document.forms["loan_calculator"]["paymentAmout"].value = Math.round((totalAmount*(interestRate/26)*Math.pow(1+interestRate/26,period*26))/(Math.pow(1+interestRate/26,period*26)-1));
+                        }else{
+                            document.forms["loan_calculator"]["paymentAmout"].value = Math.round((totalAmount*(interestRate/52)*Math.pow(1+interestRate/52,period*52))/(Math.pow(1+interestRate/52,period*52)-1));
+                        }
+                    }else{
+                        if(frequence == "monthly"){
+                            document.forms["loan_calculator"]["paymentAmout"].value = Math.round(totalAmount*(interestRate/12));
+                        }else if(frequence == "biweekly"){
+                            document.forms["loan_calculator"]["paymentAmout"].value = Math.round(totalAmount*(interestRate/26));
+                        }else{
+                            document.forms["loan_calculator"]["paymentAmout"].value = Math.round(totalAmount*(interestRate/52));
+                        }
+                    }
+                    document.forms["loan_calculator"]["periodUnit"].value = frequence;
+                }else{
+                     alert(error);
+                }
+            }
+            
+            function checkEmpty(totalAmount,interestRate,period){
+                var errorMessage="";
+                if(totalAmount == ""){
+                    errorMessage += "Total Amount, ";
+                }
+                if(interestRate == ""){
+                    errorMessage += "Interest Rate, ";
+                }
+                if(period == ""){
+                    errorMessage += "Maturity";
+                }if(!errorMessage == ""){
+                    errorMessage += "\nPlease Fill The Element Above!"
+                }
+                return errorMessage;
+            }
+            
+            function checkIsNumber(value,name){
+                if(isNaN(value)){
+                    document.forms["loan_calculator"][name].value="";
+                    alert("This Filed Should Be Filled With Number!");
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div id="loan_calculator">
+            <form name="loan_calculator" method="post" action="">
+                <table>
+                    <tr class="row">
+                        <td class="elenment">Total Amount: </td>
+                        <td class="elenment">$ <input type="text" name="totalAmount" onchange="checkIsNumber(this.value,this.name)"/></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="elenment">Interest Rate: </td>
+                        <td class="elenment">&nbsp;&nbsp;&nbsp;<input type="text" name="interestRate" onchange="checkIsNumber(this.value,this.name)"/> %</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="elenment">Length of Maturity: </td>
+                        <td class="elenment">&nbsp;&nbsp;&nbsp;<input type="text" name="period" onchange="checkIsNumber(this.value,this.name)"/> Years</td>
+                    </tr>
+                    <tr class="row">
+                        <td class="elenment">Payment Frequence: </td>
+                        <td class="elenment">&nbsp;&nbsp;&nbsp;<select name="frequence">
+                                                                    <option value="monthly">Monthly</option>
+                                                                    <option value="biweekly">Biweekly</option>
+                                                                    <option value="weekly">Weekly</option>
+                                                                  </select>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td class="elenment">Payment Method: </td>
+                        <td class="elenment">&nbsp;&nbsp;&nbsp;<select name="method">
+                                                                    <option value="insterestAndPrincipal">Interest And Principal</option>
+                                                                    <option value="interestOnly">Interest Only</option>
+                                                                  </select>
+                        </td>
+                    </tr>
+                    <tr class="row">
+                        <td class="elenment"></td>
+                        <td class="elenment">&nbsp;&nbsp;&nbsp;<input type="button" onclick="calculator()" value="Calculator"></td>
+                    </tr>
+                    <tr class="row">
+                        <td class="elenment">Your Payment Is: </td>
+                        <td class="elenment">$ <input type="text" name="paymentAmout" size="10"/>&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="periodUnit" size="5"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>

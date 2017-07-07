@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22/09/2014, 4:41:49 PM
+    Author     : DavidLi
+*/
+
+.yyfooter{
+    /* border: solid 1px; */
+    width: 80%;
+
+    background-color: rgba(223, 224, 253, 1);
+    height: 40px;
+    text-align: center;
+    margin-left: 20%;
+    position: fixed;
+    display: table;
+    bottom: 0;
+    z-index: 15;
+}
+.yyFooterRow{
+    margin-left: 0px;
+
+    margin-right: 0px;
+}.footerName{
+    color: #797979;
+
+    font-size: 12px;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+#copyright{
+    color: rgb(116, 116, 116);
+
+}
